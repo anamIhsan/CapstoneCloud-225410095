@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./../img/icontabpng.png" type="image/x-icon">
+        <title>DETAIL SHOP</title>
+
+        <!-- Style -->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Iconscout -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!-- Splide -->
+        <link rel="stylesheet" href="../css/splide.min.css">
+        <script src="../js/splide.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-in">
+                    <img src="../img/logo.svg" class="logo">
+                    <div class="navbar-center">
+                        <ul class="navbar-center-in">
+                            <ol><a href="./../index.html">HOME</a></ol>
+                            <ol><a href="shop.html">SHOP</a></ol>
+                            <ol><a href="blog.html">BLOG</a></ol>
+                            <ol><a href="auth.html">LOGIN</a></ol>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <form action="#">
+                            <input type="search" class="input-search" placeholder="cari barang.....">
+                            <button type="submit" class="search-btn">
+                                <i class="uil uil-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Detail Shop -->
+        <div class="container">
+            <section id="main-carousel" class="splide content-detail-shop" aria-label="My Awesome Gallery">
+                <div class="detail-shop">
+                    <ul id="thumbnails" class="thumbnails">
+                        <li class="thumbnail">
+                          <img src="../img/thumbnail1.jpg" alt="">
+                        </li>
+                        <li class="thumbnail">
+                          <img src="../img/thumbnail2.jpg" alt="">
+                        </li>
+                        <li class="thumbnail">
+                          <img src="../img/thumbnail3.jpg" alt="">
+                        </li>
+                        <li class="thumbnail">
+                          <img src="../img/thumbnail4.jpg" alt="">
+                        </li>
+                        <li class="thumbnail">
+                            <img src="../img/thumbnail5.jpg" alt="">
+                        </li>
+                    </ul>
+
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="../img/detail-shop1.jpg" class="detail-shop-img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../img/detail-shop2.jpg" class="detail-shop-img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../img/detail-shop3.jpg" class="detail-shop-img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../img/detail-shop4.jpg" class="detail-shop-img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../img/detail-shop5.jpg" class="detail-shop-img">
+                            </li>
+                        </ul>
+                    </div> 
+
+                    <div class="discount-shop">
+                        <p>-10%</p>
+                    </div>
+                </div>
+                
+                <div class="detail-price">
+                    <h2>Pet Bed</h2>
+                    <hr>
+                    <div class="detail-shop-price">
+                        <h3 class="original"><span>Rp</span>.616.000</h3>
+                        <h3 class="diskon"><span>Rp</span>.399.999</h3>
+                    </div>
+                    <p>
+                        Premium Fluffy Pet Bed contains 90% of premium cotton inside the bed which make Arthacat pet bed even fluffier and more comfortable for your cats. With anti-slip feature, premium pet bed comes for your pet’s last stop at night while sleeping. The anti-slip makes it becoming two-way design (reversible). Coming with your 4 favorite color!
+                    </p>
+                    <div class="count">
+                        <div>
+                            <button type="button" onclick="countFunction('decrement')">-</button>
+                            <input class="counter" id="counter" value="1" disabled>
+                            <button type="button" onclick="countFunction('increment')">+</button>
+                        </div>
+                        <input type="button" class="add-to-card-button"  value="ADD TO CART">
+                    </div>
+                </div>
+            </section>
+                
+            
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="top">
+                        <hr>
+                        <h4>FIND US MORE & STAY CONNECTED</h4>
+                        <hr>
+                    </div>
+                    <div class="bottom">
+                        <p>
+                            <a href="https://www.tokopedia.com/arthacatid?utm_campaign=Shop%20Share&utm_source=ios&utm_medium=Share&_branch_match_id=1201222932166231706&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWj8oPN8lIMy33swQAcKKsPiEAAAA%3D" target="_blank">
+                                Tokopedia
+                            </a> | 
+                            <a href="https://shopee.co.id/arthacat.id" target="_blank">Shopee</a></p>
+                        <div class="sosmed">
+                            <a href="https://www.facebook.com/anamihsan.anamihsan.5/" target="_blank">
+                                <i class="uil uil-facebook-f"></i>
+                                <span class="tooltiptext">Follow on Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/anam.ihsan/" target="_blank">
+                                <i class="uil uil-instagram"></i>
+                                <span class="tooltiptext">Follow on Instagram</span>
+                            </a>
+                            <a href="https://github.com/anamIhsan" target="_blank">
+                                <i class="uil uil-github"></i>
+                                <span class="tooltiptext">Follow on Github</span>
+                            </a>
+                            <a href="https://www.youtube.com/@anamihsan6410/featured" target="_blank">
+                                <i class="uil uil-youtube"></i>
+                                <span class="tooltiptext">Follow on Youtube</span>
+                            </a>
+                        </div>
+                        <p class="copyright">Copyright 2023 © PT Arthacat Tirta Surya</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            var splide = new Splide( '#main-carousel', {
+                pagination: false,
+                arrows: false,
+            } );
+            splide.mount();
+
+            // Collects LI elements:
+            var thumbnails = document.getElementsByClassName( 'thumbnail' );
+            for ( var i = 0; i < thumbnails.length; i++ ) {
+                initThumbnail( thumbnails[ i ], i );
+            }
+
+            // The function to initialize each thumbnail.
+            function initThumbnail( thumbnail, index ) {
+                thumbnail.addEventListener( 'click', function () {
+                    // move the carousel
+                } );
+            }
+            var splide = new Splide( '#main-carousel', {
+                pagination: false,
+                arrows: false,
+            } );
+
+            var thumbnails = document.getElementsByClassName( 'thumbnail' );
+            var current;
+            for ( var i = 0; i < thumbnails.length; i++ ) {
+            initThumbnail( thumbnails[ i ], i );
+            }
+
+            function initThumbnail( thumbnail, index ) {
+                thumbnail.addEventListener( 'click', function () {
+                    splide.go( index );
+                });
+            }
+
+            splide.on( 'mounted move', function () {
+                var thumbnail = thumbnails[ splide.index ];
+
+                if( thumbnail ){
+                    if ( current ) {
+                    current.classList.remove( 'is-active' );
+                    }
+
+                    thumbnail.classList.add( 'is-active' );
+                    current = thumbnail;
+                }
+            });
+            splide.mount();
+
+            // count
+            var counter = 1;
+            
+            function countFunction(operators){
+                switch (operators) {
+                    case 'increment':
+                        counter += 1;
+                        break;
+                    
+                    case 'decrement': 
+                        if (counter == 1) {
+                            counter;
+                        } else {
+                            counter -= 1;
+                        }
+                        break;
+                }
+
+                return document.getElementById("counter").value = counter;
+            }
+
+        </script>
+    </body>
+</html>
